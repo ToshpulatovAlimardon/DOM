@@ -1,7 +1,9 @@
 "use strict";
 
-const circles = document.querySelectorAll(".circle");
+const hearts = document.querySelectorAll(".heart");
+const Wrapper = document.querySelector(".wrapper");
 
-for(let i=0; i<circles.length; i++) {
-    circles[i].style.cssText = 'color: green;'
-}
+const myHeart = document.createElement("div");
+
+myHeart.classList.add("heart");
+Wrapper.append(myHeart);
