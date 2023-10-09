@@ -1,8 +1,7 @@
 "use strict";
 
-const buttons = document.querySelectorAll(".btn");
+const circles = document.querySelectorAll(".circle");
 
-buttons.forEach((item) => {
-    item.style.cssText =
-        "background: #0f0; color: #000; font-weight: bold; font-size: 24px; width: 150px; height: 150px";
-});
+for(let i=0; i<circles.length; i++) {
+    circles[i].style.cssText = 'color: green;'
+}
